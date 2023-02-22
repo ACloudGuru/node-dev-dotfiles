@@ -3,6 +3,8 @@
 macOS includes a [keychain CLI (AKA security binary)](https://ss64.com/osx/security.html) that we
 have leveraged to store and retrieve "global" secrets for your development environment.
 
+> 📝 The keychain cli might be updated in your system to use `security` instead of `secret`. In that case, follow the above link to store tokens.
+
 ## Setting Secrets
 
 You might see in the shell init that two tokens are missing, `NPM_TOKEN` and `BUILDKITE_TOKEN`.
