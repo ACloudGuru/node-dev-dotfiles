@@ -31,7 +31,6 @@ secret export GIT_USERNAME --silent
 
 # Source environment extensions
 source $DOTFILES/environment/npm.sh
-source $DOTFILES/environment/asdf.sh
 source $DOTFILES/environment/awssdk.sh
 source $DOTFILES/environment/certs.sh
 source $DOTFILES/environment/git.sh

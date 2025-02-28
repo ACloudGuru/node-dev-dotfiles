@@ -9,7 +9,7 @@
 Install the Node plugin
 
 ```sh
-asdf plugin-add nodejs
+asdf plugin add nodejs
 ```
 
 List the all Node versions (or find the [LTS versions
@@ -53,7 +53,7 @@ This is an **optional** step as opposed to using a global PNPM installed via Hom
 e.g. for setting up PNPM version `9.12.0` in a given project...
 
 ```sh
-asdf plugin-add pnpm
+asdf plugin add pnpm
 asdf install pnpm 9.12.0
 asdf local pnpm 9.12.0
 ```
@@ -63,7 +63,7 @@ asdf local pnpm 9.12.0
 Install the Python plugin
 
 ```sh
-asdf plugin-add python
+asdf plugin add python
 ```
 
 List all Python 3 versions to find latest
