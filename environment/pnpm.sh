@@ -1,14 +1,10 @@
-export PNPM_HOME="$HOME/Library/pnpm"
-case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
-esac
 
 # PNPM shortcuts
 alias p="pnpm"
 alias pe="pnpm exec"
 alias px="pnpx"
 alias pa="pnpm add"
+alias pr="pnpm remove"
 alias pf="pnpm add --filter"
 alias pd="pnpm add -D"
 alias pdf="pnpm add -D --filter"
