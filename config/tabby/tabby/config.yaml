@@ -191,17 +191,17 @@ terminal:
       - '#8be9fd'
       - '#ffffff'
   font: Monaspace Xenon
-  ligatures: true
   cursor: underline
   customColorSchemes: []
-  fallbackFont: Victor Mono
-  hideTabIndex: true
+  fallbackFont: Monaspace Xenon
   linePadding: 6
   copyAsHTML: false
   bell: audible
   fontSize: 16
   fontWeightBold: 400
   fontWeight: 200
+  hideTabIndex: true
+  minimumContrastRatio: 5
 ssh: {}
 clickableLinks:
   modifier: metaKey
@@ -209,7 +209,6 @@ accessibility:
   animations: false
 appearance:
   dockFill: 1
-  vibrancy: true
 hacks: {}
 providerBlacklist: []
 commandBlacklist: []
