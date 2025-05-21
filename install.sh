@@ -25,7 +25,7 @@ command brew bundle install --file=$DOTFILES/brewfile
 STOWS=$DOTFILES/config
 echo -e "\n🔗 Linking Stow packages"
 command stow -v -t $HOME -d $STOWS -S stow # link stow config before creating other links
-command stow -v -t $HOME -d $STOWS -S asdf git npm zim zsh
+command stow -v -t $HOME -d $STOWS -S git npm zim zsh
 
 # Link Stow for Tabby to override default config path, can't read from dotfiles.
 # @see https://github.com/Eugeny/tabby/discussions/9523

@@ -1,0 +1,8 @@
+{
+	"version": 3,
+	"team": "exp_hands_on_principals",
+	"jira-project-key": "PET2",
+	"slack-channel": "#innersource",
+	"in-use": false,
+	"bc": "innersource"
+}
