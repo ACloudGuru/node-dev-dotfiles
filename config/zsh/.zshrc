@@ -43,6 +43,8 @@ source $DOTFILES/environment/upbrew.sh
 source $DOTFILES/environment/utils.sh
 source $DOTFILES/environment/weather.sh
 source $DOTFILES/environment/yarn.sh
-source $DOTFILES/environment/zim.sh
 source $DOTFILES/environment/zsh.sh
 source $DOTFILES/environment/mise.sh
+
+# Source ZimFW last to reference all other environment extensions
+source $DOTFILES/environment/zim.sh
