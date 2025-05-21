@@ -8,6 +8,8 @@
 [VS-Code]: https://code.visualstucdio.com/
 [ZimFW]: https://github.com/zimfw/zimfw
 
+# @todo Replace ASDF with Mise https://mise.jdx.dev/
+
 # Install
 
 This repo is self-installing for consistent cross-machine configuration. [See tutorial for more info.](https://www.jakewiesler.com/blog/managing-dotfiles)
